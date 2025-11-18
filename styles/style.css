@@ -9,7 +9,7 @@ body {
   line-height: 1.6;
 }
 
-/* Header */
+/* cabeza */
 .header {
   background-color: #48535f;
   color: white;
@@ -101,7 +101,7 @@ body {
   margin: 1vh;
   opacity: 0.9;
 }
-.sub {
+.subText {
   color: gray;
 }
 
@@ -146,3 +146,100 @@ body {
 }
 
 
+/* servicios */
+.servicios {
+  display: flex;
+  justify-content: space-around;
+  padding: 8vh 5vw;
+  background-color: white;
+  text-align: center;
+}
+
+.servicio{
+  width: 25%;
+}
+
+.servicio .icon {
+  font-size: 3rem;
+  margin-bottom: 1vh;
+}
+
+.servicio h3 {
+  color: #455a71;
+}
+
+.servicio p {
+  margin: 1vh 0 2vh;
+}
+
+.servicio .btn {
+  font-size: 0.8rem;
+}
+
+/* proyectos */
+.proyectos {
+  padding: 8vh 5vw;
+  width: 100%;
+}
+
+.proyectos-gallery {
+  display: flex;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4vh;
+}
+
+.proyectos-gallery img {
+  width: 15vw;
+  height: auto;
+}
+
+/* blog y twitter */
+.informacion {
+  display: flex;
+  justify-content: space-around;
+  padding: 8vh 5vw;
+  background-color: #fff;
+}
+.informacion img {
+  margin-right: 20px;
+}
+
+.blog,
+.twitter {
+  width: 40%;
+}
+
+a {
+  color: #2f7ed8;
+  text-decoration: none;
+}
+
+.informacion h3 {
+  color: #2f7ed8;
+  margin-bottom: 2vh;
+}
+
+.texto {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3vh;
+}
+
+/* pie de pagina */
+.linea {
+  padding: 1vh 5vw;
+}
+footer {
+  padding: 3vh 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.redes a {
+  color: white;
+  margin-left: 1vw;
+  font-size: 22px;
+}
