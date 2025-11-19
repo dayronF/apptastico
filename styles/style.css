@@ -43,7 +43,7 @@ body {
   font-size: 40px;
 }
 
-.nav ul {
+.ul {
   list-style: none;
   display: flex;
   gap: 2vw;
@@ -121,8 +121,6 @@ body {
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.626),
     inset 0 2px 4px rgba(255, 255, 255, 0.432);
-
-
 }
 
 .btn {
@@ -142,9 +140,8 @@ body {
   margin-top: 9px;
   color: white;
   margin-left: 10px;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
-
 
 /* servicios */
 .servicios {
@@ -155,7 +152,7 @@ body {
   text-align: center;
 }
 
-.servicio{
+.servicio {
   width: 25%;
 }
 
@@ -242,4 +239,115 @@ footer {
   color: white;
   margin-left: 1vw;
   font-size: 22px;
+}
+
+
+/* resposivo */
+
+@media (max-width: 768px) {
+  .header {
+    padding: 3vh 5vw;
+    height: auto;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 2vh;
+  }
+
+  
+  .logo {
+    font-size: 35px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+  }
+
+  /* Banner */
+  .banner {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    margin-top: 3vh;
+  }
+
+  .iphone {
+    width: 60vw;
+    margin-bottom: 3vh;
+  }
+
+  .text {
+    width: 90vw;
+  }
+
+  .text h2 {
+    font-size: 30px;
+  }
+
+  .boton1 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn1 {
+    padding: 10px 25px;
+  }
+
+  /* Marcas */
+  .marcas {
+    flex-wrap: wrap;
+    gap: 3vh;
+    justify-content: center;
+  }
+
+  /* Servicios */
+  .servicios {
+    flex-direction: column;
+    gap: 5vh;
+    padding: 5vh 5vw;
+  }
+
+  .servicio {
+    width: 100%;
+  }
+
+  /* Proyectos */
+  .proyectos-gallery {
+    justify-content: center;
+    gap: 3vh;
+  }
+
+  .proyectos-gallery img {
+    width: 40vw;
+  }
+
+  /* Blog y Twitter */
+  .informacion {
+    flex-direction: column;
+    text-align: left;
+    gap: 5vh;
+  }
+
+  .blog,
+  .twitter {
+    width: 100%;
+  }
+
+  .texto {
+    flex-direction: column;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: column;
+    gap: 2vh;
+    text-align: center;
+  }
+
+  .redes a {
+    font-size: 26px;
+    margin-left: 3vw;
+  }
 }
