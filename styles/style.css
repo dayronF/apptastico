@@ -244,6 +244,82 @@ footer {
 
 /* resposivo */
 
+
+/* TABLET */
+
+@media (max-width: 1024px) {
+
+  .header {
+    height: auto;
+    padding: 4vh 5vw;
+  }
+
+  .logo {
+    font-size: 32px;
+  }
+
+  .ul {
+    gap: 4vw;
+  }
+
+  /* Banner */
+  .banner {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .iphone {
+    width: 40vw;
+    margin-bottom: 3vh;
+  }
+
+  .text {
+    width: 80vw;
+  }
+
+  .text h2 {
+    font-size: 40px;
+  }
+
+  .boton1 {
+    justify-content: center;
+  }
+
+  /* Servicios */
+  .servicios {
+    flex-wrap: wrap;
+    gap: 4vh;
+  }
+
+  .servicio {
+    width: 45%;
+  }
+
+  /* Proyectos */
+  .proyectos-gallery img {
+    width: 30vw;
+  }
+
+  /* Información */
+  .informacion {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .blog, .twitter {
+    width: 90%;
+    margin-bottom: 5vh;
+  }
+
+  .texto {
+    justify-content: center;
+  }
+}
+
+/* telefono */
+
 @media (max-width: 768px) {
   .header {
     padding: 3vh 5vw;
